@@ -1,0 +1,21 @@
+.text-decor-none {
+  text-decoration: none;
+}
+.mbh3-3 {
+  margin-bottom: 150px;
+}
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: zoomInSoft 0.8s ease-out forwards;
+}
+
+@keyframes zoomInSoft {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.t-M10 {
+  top: 150px;
+}
